@@ -8,7 +8,7 @@ const setupAndStartServer = async ()=>{
     const app = express();
    
     app.listen(PORT,()=>{
-        
+         
         app.use(bodyParser.json());
         app.use(bodyParser.urlencoded({extended:true}));
 
